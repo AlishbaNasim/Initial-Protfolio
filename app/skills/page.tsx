@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function Skills() {
   return (
     <div>
       <h4 className="bg-pink-500 font-bold text-center">Simple Resume</h4>
@@ -12,8 +12,16 @@ export default function Home() {
         <Link href="contact"><li className="inline-block m-3">Contact</li></Link>
 
       </ul>
-      <h3 className="text-center font-bold text-red-600 p-4  bg-gray-300">HOME PAGE</h3>
-      <h1 className="pt-40 text-center font-bold text-blue-900 text-7xl">---WELCOME TO MY PROTFOLIO---</h1>
+      <h3 className="text-center font-bold text-red-600 p-4 text-lg bg-gray-300">Skills</h3>
+      <div className=" border-4 border-solid border-black m-20 p-6 w-[300px]  leading-relaxed">
+        <ul >
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+
+        </ul>
+      </div>
     </div>
   );
 }
