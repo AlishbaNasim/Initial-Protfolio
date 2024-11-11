@@ -14,7 +14,7 @@ export default function About() {
       </ul>
       <h3 className="text-center font-bold text-red-600 p-4 text-lg bg-gray-300">About Me</h3>
       <div className=" border-4 border-solid border-black m-20 p-6 w-[300px]  leading-relaxed  ">
-        <h3>Father's name: Syed Naseem Uddin</h3>
+        <h3>Father&apos;s name: Syed Naseem Uddin</h3>
         <h3>Nationality: Pakistani</h3>
         <h3>Date of Birth: 5-march-2006</h3>
         <h3>Religious: Islam</h3>
